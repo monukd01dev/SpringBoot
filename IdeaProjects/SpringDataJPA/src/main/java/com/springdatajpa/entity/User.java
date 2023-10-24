@@ -29,8 +29,7 @@ public class User {
         super();
     }
 
-    public User(int id, String name, String city, String domain) {
-        this.id = id;
+    public User(String name, String city, String domain) {
         this.name = name;
         this.city = city;
         this.domain = domain;
